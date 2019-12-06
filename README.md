@@ -1,2 +1,0 @@
-# slot_spinner
-[Solution]()
