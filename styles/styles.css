@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-image: url("../media_files/images/cover_images/slotMachine.jpg");
+  background-position: center;
+  background-size: 2100px;
+}
+
+main {
+  width: 550px;
+  margin: 110px auto;
+}
+
+#status {
+  width: 100%;
+  text-align: center;
+  color: darkmagenta;
+  font-size: 40px;
+  transform: translateY(15px);
+}
+
+#balance {
+  font-size: 25px;
+  color: #AB47BC;
+  transform: translateY(124px);
+  text-align: center;
+  width: 150px;
+  margin: auto;
+}
+
+#slots {
+  display: flex;
+  align-items: center;
+  height: 270px;
+  border-radius: 15px;
+  background-color: #FFE270;
+  transform: translateY(130px);
+}
+
+#button {
+  display: flex;
+  border-radius: 15px;
+  outline: none;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #AB47BC;
+  color: #FFFFFF;
+  font-size: 25px;
+  width: 100%;
+  height: 70px;
+  transform: translateY(90px);
+}
+
+#button:hover {
+  background-color: #BA68C8;
+  cursor: pointer;
+}
+
+#slot1, #slot2, #slot3 {
+  margin: 5px 15px 0;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.a1 {
+  background-image: url("../media_files/images/spinners/seven.png");
+}
+
+.a2 {
+  background-image: url("../media_files/images/spinners/cherries.png");
+}
+
+.a3 {
+  background-image: url("../media_files/images/spinners/club.png");
+}
+
+.a4 {
+  background-image: url("../media_files/images/spinners/diamond.png");
+}
+
+.a5 {
+  background-image: url("../media_files/images/spinners/heart.png");
+}
+
+.a6 {
+  background-image: url("../media_files/images/spinners/spade.png");
+}
+
+.a7 {
+  background-image: url("../media_files/images/spinners/joker.png");
+}
+
+/*# sourceMappingURL=styles.css.map */
